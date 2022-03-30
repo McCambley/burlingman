@@ -23,12 +23,6 @@ $roboto-con: "Roboto Condensed", sans-serif;
   width: 100%;
   text-align: center;
   color: #7198ff;
-  transition: color 0.3s ease, text-shadow 0.3s ease;
-
-  &:hover {
-    // color: #000;
-    text-shadow: 0 0 0 #000, 0 0 0 #000;
-  }
 }
 
 %container {
@@ -132,12 +126,6 @@ $roboto-con: "Roboto Condensed", sans-serif;
     width: 100%;
     color: #ffffff;
     text-shadow: 2px -2px 0 #ff7784, -2px 2px 0 #7198ff;
-    transition: color 0.3s ease, text-shadow 0.3s ease;
-
-    &:hover {
-      // color: #000;
-      text-shadow: 0 0 0 #000, 0 0 0 #000;
-    }
 
     &:nth-of-type(2) {
       text-align: right;

@@ -16,10 +16,6 @@
   width: 100%;
   text-align: center;
   color: #7198ff;
-  transition: color 0.3s ease, text-shadow 0.3s ease;
-}
-.header__subtitle:hover, .header__title:hover {
-  text-shadow: 0 0 0 #000, 0 0 0 #000;
 }
 
 .footer, .main, .header {
@@ -117,10 +113,6 @@
   width: 100%;
   color: #ffffff;
   text-shadow: 2px -2px 0 #ff7784, -2px 2px 0 #7198ff;
-  transition: color 0.3s ease, text-shadow 0.3s ease;
-}
-.main .main__subtitle:hover {
-  text-shadow: 0 0 0 #000, 0 0 0 #000;
 }
 .main .main__subtitle:nth-of-type(2) {
   text-align: right;
